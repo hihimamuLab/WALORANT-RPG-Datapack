@@ -8,4 +8,4 @@ execute as @a[nbt=!{SelectedItem:{id:"minecraft:carrot_on_a_stick"}}] at @s run 
 execute as @a[tag=has_weapon] at @s run function pack:attack_enemy/left_click_detection/summon_lcd_interaction
 
 #左クリック検知用スライムキル
-execute as @e[type=minecraft:interaction, tag=hit_detection] if data entity @s {PortalCooldown:0} run function pack:attack_enemy/left_click_detection/kill_lcd_interaction
+execute as @e[type=minecraft:interaction, tag=hit_detection] run function pack:attack_enemy/left_click_detection/kill_lcd_interaction

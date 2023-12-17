@@ -7,8 +7,7 @@
             "mainhand": {
                 "items": [
                     "minecraft:carrot_on_a_stick"
-                ],
-                "nbt": "{weapon_type: \"sword\"}"
+                ]
             }
         }
     }

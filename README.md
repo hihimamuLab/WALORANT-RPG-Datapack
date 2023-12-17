@@ -1,6 +1,6 @@
 # WALORANT RPG Datapack
 
-Editing now...
+Editing now....
 
 ## 完成まで作業進捗置き場
 

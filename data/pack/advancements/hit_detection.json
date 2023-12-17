@@ -13,7 +13,7 @@
                                     "items": [
                                         "minecraft:carrot_on_a_stick"
                                     ],
-                                    "nbt": "{tag: {weapon_type:\"sword\"}}"
+                                    "nbt": "{weapon_type:\"sword\"}"
                                 }
                             }
                         }
@@ -24,8 +24,8 @@
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
-                            "type": "minecraft:interaction",
-                            "nbt": "{Tags: [hit_detection]}"
+                            "type": "minecraft:slime",
+                            "nbt": "{Tags: [\"hit_detection\"]}"
                         }
                     }
                 ]

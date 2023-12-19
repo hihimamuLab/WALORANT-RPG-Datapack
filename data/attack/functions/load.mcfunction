@@ -1,4 +1,4 @@
-### pack:load
+### attack:load
 
 #リロード通知
 say Reloaded!

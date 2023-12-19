@@ -2,4 +2,5 @@
 
 #武器未所持時ファンクション
 tag @a[predicate=!pack:has_weapon] remove has_weapon
-kill @e[type=minecraft:interaction, tag=hit_detection]
+tp @e[type=minecraft:slime, tag=hit_detection] ~ -1000 ~
+kill @e[type=minecraft:slime, tag=hit_detection]

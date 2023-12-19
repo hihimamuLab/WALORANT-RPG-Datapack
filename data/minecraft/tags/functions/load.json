@@ -1,3 +1,6 @@
 {
-    "values": ["attack:load"]
+    "values": [
+        "attack:load",
+        "stutas:load"
+    ]
 }

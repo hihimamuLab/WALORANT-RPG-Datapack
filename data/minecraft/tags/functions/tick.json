@@ -1,3 +1,6 @@
 {
-    "values": ["attack:tick"]
+    "values": [
+        "attack:tick",
+        "stutas:tick"
+    ]
 }

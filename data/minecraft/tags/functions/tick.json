@@ -1,5 +1,6 @@
 {
     "values": [
+        "main:tick",
         "attack:tick",
         "stutas:tick"
     ]

@@ -22,8 +22,6 @@ scoreboard objectives add spd dummy "速度"
 scoreboard objectives add crt dummy "会心率"
 scoreboard objectives add level dummy "レベル"
 scoreboard objectives add xp dummy "経験値"
-#値設定
-# ToDo...
 
 #チーム(role)
 #作成

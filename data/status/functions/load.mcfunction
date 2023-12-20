@@ -33,3 +33,5 @@ scoreboard players set #10 Constant 10
 
 #Temporary
 scoreboard objectives add Temporary dummy
+
+function status:mana_point/mana_bar/mana_bar

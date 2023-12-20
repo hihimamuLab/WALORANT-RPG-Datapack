@@ -1,3 +1,5 @@
+### stutas:load
+
 #スコアボード(status)
 scoreboard objectives add hp dummy "体力"
 scoreboard objectives add hp_max dummy "最大体力"

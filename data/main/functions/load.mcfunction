@@ -1,3 +1,5 @@
+### main:load
+
 #リロード通知
 say Reloaded!
 
@@ -6,7 +8,6 @@ gamerule doMobSpawning false
 gamerule doMobLoot false 
 
 #チーム(role)
-# ToDo teamネームスペースに移動
 team add fighter "戦士"
 team add paladin "パラディン"
 team add battle_master "バトルマスター"
@@ -30,3 +31,21 @@ team add sniper "スナイパー"
 team add magician "魔法使い"
 team add sorcerer "妖術使い"
 team add wizard "魔術師"
+
+#Constants(定数群)作成
+scoreboard objectives add Constant dummy
+# 値設定 とりあえず1~10
+scoreboard players set #1 Constant 1
+scoreboard players set #2 Constant 2
+scoreboard players set #3 Constant 3
+scoreboard players set #4 Constant 4
+scoreboard players set #5 Constant 5
+scoreboard players set #6 Constant 6
+scoreboard players set #7 Constant 7
+scoreboard players set #8 Constant 8
+scoreboard players set #9 Constant 9
+scoreboard players set #10 Constant 10
+#ToDo 必要な値を適宜書き足していく
+
+#Temporary
+scoreboard objectives add Temporary dummy

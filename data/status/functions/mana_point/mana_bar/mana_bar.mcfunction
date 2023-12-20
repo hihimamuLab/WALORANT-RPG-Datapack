@@ -1,5 +1,6 @@
 ### status:mana_point/mana_bar/mana_bar
 
+xp set @a 0 levels
 scoreboard players operation $MP_Bar mp_bar = @s mp
 execute if score $MP_Bar mp_bar matches 128.. run xp add @s 128 levels
 execute if score $MP_Bar mp_bar matches 128.. run scoreboard players remove $MP_Bar mp_bar 128
@@ -18,4 +19,4 @@ execute if score $MP_Bar mp_bar matches 2.. run scoreboard players remove $MP_Ba
 execute if score $MP_Bar mp_bar matches 1.. run xp add @s 1 levels
 execute if score $MP_Bar mp_bar matches 1.. run scoreboard players remove $MP_Bar mp_bar 1
 
-scoreboard players reset $levels mp_bar
+scoreboard players reset $MP_Bar mp_bar

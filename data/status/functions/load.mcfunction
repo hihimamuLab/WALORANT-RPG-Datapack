@@ -16,8 +16,6 @@ scoreboard objectives add level dummy "レベル"
 scoreboard objectives add xp dummy "経験値"
 scoreboard objectives add mp_bar dummy
 
-xp set @a 0 levels
-
 #Constants(定数群)作成
 scoreboard objectives add Constant dummy
 # 値設定 とりあえず1~10

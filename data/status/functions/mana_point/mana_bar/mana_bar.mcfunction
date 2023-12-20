@@ -22,4 +22,4 @@ execute if score $MP_Bar mp_bar matches 1.. run scoreboard players remove $MP_Ba
 
 scoreboard players reset $MP_Bar mp_bar
 
-stopsound hihimamu player minecraft:entity.experience_orb.pickup
+stopsound hihimamu player minecraft:entity.player.levelup

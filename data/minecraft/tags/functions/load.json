@@ -2,6 +2,6 @@
     "values": [
         "main:load",
         "attack:load",
-        "stutas:load"
+        "status:load"
     ]
 }

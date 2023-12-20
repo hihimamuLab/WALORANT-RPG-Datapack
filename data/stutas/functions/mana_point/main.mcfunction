@@ -1,1 +1,0 @@
-### stutas:mana_point/main

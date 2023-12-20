@@ -1,4 +1,4 @@
-### stutas:load
+### status:load
 
 #スコアボード(status)
 scoreboard objectives add hp dummy "体力"

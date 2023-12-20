@@ -1,1 +1,1 @@
-function status:mana_point/mana_bar/mana_bar
+function status:xp/main

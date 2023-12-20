@@ -21,3 +21,5 @@ execute if score $MP_Bar mp_bar matches 1.. run xp add @a 1 levels
 execute if score $MP_Bar mp_bar matches 1.. run scoreboard players remove $MP_Bar mp_bar 1
 
 scoreboard players reset $MP_Bar mp_bar
+
+stopsound hihimamu player minecraft:entity.experience_orb.pickup

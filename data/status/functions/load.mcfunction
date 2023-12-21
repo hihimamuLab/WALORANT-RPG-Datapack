@@ -30,6 +30,7 @@ scoreboard players set #8 Constant 8
 scoreboard players set #9 Constant 9
 scoreboard players set #10 Constant 10
 #ToDo 必要な値を適宜書き足していく
+scoreboard players set #1000 Constant 1000
 
 #Temporary
 scoreboard objectives add Temporary dummy

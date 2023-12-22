@@ -17,3 +17,6 @@ scoreboard players operation $Answer mp_max = #50 Constant
 scoreboard players operation $Answer mp_max -= $Max_MP_Calc_1 level
 scoreboard players operation $Answer mp_max += $Max_MP_Calc_2 level
 scoreboard players operation @s mp_max = $Answer mp_max
+
+# advancements剥奪
+advancement revoke @s only status:player_selector

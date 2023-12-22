@@ -5,6 +5,6 @@
     }
   },
   "rewards": {
-    "function": "status:mana_point/player_selector"
+    "function": "status:player_selector"
   }
 }

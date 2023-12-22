@@ -1,6 +1,7 @@
 ### status:max_mana/max_mana
 
-# mp最大値リセット
+# mp最大値, levelリセット
+scoreboard players set @s level 0
 scoreboard players set @s mp_max 0
 # mp最大値計算 50 - level ^ 2 / 100 + 2.5 * level
 scoreboard players operation $Levels level = @s level

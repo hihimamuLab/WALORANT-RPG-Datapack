@@ -33,6 +33,6 @@
 		}
 	},
 	"rewards": {
-		"function": "pack:attack_enemy/hitted_handling/sword/rec_hit"
+		"function": "attack:attack_enemy/hitted_handling/sword/rec_hit"
 	}
 }

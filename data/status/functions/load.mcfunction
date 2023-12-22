@@ -1,6 +1,6 @@
 ### status:load
 
-#スコアボード(status)
+# スコアボード(status)
 scoreboard objectives add hp dummy "体力"
 scoreboard objectives add hp_max dummy "最大体力"
 scoreboard objectives add hp_regen dummy "自然回復体力"
@@ -18,7 +18,7 @@ scoreboard objectives add mp_bar dummy
 
 #Constants(定数群)作成
 scoreboard objectives add Constant dummy
-# 値設定 とりあえず1~10
+#値設定 とりあえず1~10
 scoreboard players set #1 Constant 1
 scoreboard players set #2 Constant 2
 scoreboard players set #3 Constant 3
@@ -34,6 +34,10 @@ scoreboard players set #25 Constant 25
 scoreboard players set #50 Constant 50
 scoreboard players set #100 Constant 100
 scoreboard players set #1000 Constant 1000
+
+#タイマー
+scoreboard objectives add regen_speed_timer dummy "タイマー"
+scoreboard players set @s regen_speed_timer 0
 
 #Temporary
 scoreboard objectives add Temporary dummy

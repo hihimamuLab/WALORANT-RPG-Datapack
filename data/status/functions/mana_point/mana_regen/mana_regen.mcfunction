@@ -18,4 +18,4 @@ execute if predicate status:mana_point/regen_mana/level81_100 run scoreboard pla
 # mpの回復
 scoreboard players operation @s mp += @s mp_regen
 
-execute if score @s mp > @s mp_max run scoreboard players operation @s mp = @s max_mp
+execute if score @s mp > @s mp_max run scoreboard players operation @s mp = @s mp_max

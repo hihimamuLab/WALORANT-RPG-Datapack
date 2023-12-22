@@ -1,5 +1,8 @@
 ### status:mana_point/mana_bar/mana_bar
 
+#advancements剥奪
+advancement revoke @s only status:player_selector
+
 # mpからxpバーへの置き換え
 #レベル129設定
 xp set @s 129 levels
@@ -65,6 +68,3 @@ scoreboard players reset $Points mp_bar
 
 #レベルアップ音消去
 stopsound @s player minecraft:entity.player.levelup
-
-#advancements剥奪
-advancement revoke @s only status:player_selector

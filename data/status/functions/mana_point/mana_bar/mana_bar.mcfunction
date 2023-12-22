@@ -10,7 +10,7 @@ scoreboard players operation $Diff mp_bar = @s mp
 scoreboard players operation $Diff mp_bar *= #1000 Constant
 scoreboard players operation $Diff mp_bar /= @s mp_max
 scoreboard players operation $Diff mp_bar -= $Points mp_bar
-scoreboard players operation $Diff mp_bar /= #3 Constant
+scoreboard players operation $Diff mp_bar /= #10 Constant
 scoreboard players operation $Points mp_bar += $Diff mp_bar
 
 # スコアの値を経験値に代入

@@ -1,8 +1,5 @@
 ### status:mana_point/mana_bar/mana_bar
 
-#advancements剥奪
-advancement revoke @s only status:player_selector
-
 # mpからxpバーへの置き換え
 #レベル129設定
 xp set @s 129 levels

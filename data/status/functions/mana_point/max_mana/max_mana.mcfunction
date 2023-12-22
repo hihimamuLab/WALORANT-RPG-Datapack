@@ -1,4 +1,4 @@
-### status:max_mana/max_mana
+### status:mana_point/max_mana/max_mana
 
 # mp最大値リセット
 scoreboard players set @s mp_max 0

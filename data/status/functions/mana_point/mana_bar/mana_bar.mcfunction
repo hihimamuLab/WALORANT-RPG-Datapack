@@ -62,6 +62,8 @@ execute if score $Levels mp_bar matches 1.. run scoreboard players remove $Level
 scoreboard players reset $Levels mp_bar
 scoreboard players reset $Diff mp_bar
 scoreboard players reset $Points mp_bar
+#最大マナとの連動
+function status:mana_point/max_mana/max_mana
 
 #レベルアップ音消去
 stopsound @s player minecraft:entity.player.levelup

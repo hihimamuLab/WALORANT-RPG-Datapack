@@ -20,6 +20,3 @@ scoreboard players operation @s mp += @s mp_regen
 
 # mpがmp_maxを超過しないようにする
 execute if score @s mp > @s mp_max run scoreboard players operation @s mp = @s mp_max
-
-# mpが0を下回らないようにする
-execute if score @s mp < #0 Constant run scoreboard players operation @s mp = #0 Constant

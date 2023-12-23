@@ -11,3 +11,5 @@ Editing now....
 '23/12/20:ステータス作成準備(スコアボード作成)
 
 '23/12/23:経験値バーのMPへの置き換え
+
+https://github.com/hihimamuLab/WALORANT-RPG-Datapack/assets/122292089/2bb14a64-6202-4738-a0a8-65d01e14ac3f

@@ -4,7 +4,6 @@
 #mp
 execute as @s run function status:mana_point/mana_bar/mana_bar
 execute as @s run function status:mana_point/max_mana/max_mana
-execute as @s run function status:mana_point/mana_regen/regen_speed_timer
 #hp
 execute as @s run function status:hit_point/max_hp/max_hp
 #timer

@@ -2,6 +2,7 @@
     "values": [
         "main:load",
         "attack:load",
-        "status:load"
+        "status:load",
+        "develop_temp:load"
     ]
 }

@@ -2,24 +2,19 @@
 
 # mp最大値リセット
 scoreboard players set @s mp_max 0
-# mp最大値計算 50 - level ^ 2 / 100 + 2.5 * level
-scoreboard players operation $MP_Levels level = @s level
 
-scoreboard players operation $Max_MP_Calc_1 mp_max = $MP_Levels level
-scoreboard players operation $Max_MP_Calc_1 mp_max *= $Max_MP_Calc_1 mp_max
-scoreboard players operation $Max_MP_Calc_1 mp_max /= #100 Constant
+# mp最大値計算 mp_max = 150 - {(x - 100) ^ 2 / 100}
+scoreboard players operation $MaxMPCalc mp = @s level
+scoreboard players operation $MaxMPCalc mp -= #100 Constant
 
-scoreboard players operation $Max_MP_Calc_2 mp_max = $MP_Levels level
-scoreboard players operation $Max_MP_Calc_2 mp_max *= #25 Constant
-scoreboard players operation $Max_MP_Calc_2 mp_max /= #10 Constant
+scoreboard players operation $MaxMPCalc mp *= $MaxMPCalc mp
+scoreboard players operation $MaxMPCalc mp /= #100 Constant
 
-scoreboard players operation $Answer mp_max = #50 Constant
-scoreboard players operation $Answer mp_max -= $Max_MP_Calc_1 mp_max
-scoreboard players operation $Answer mp_max += $Max_MP_Calc_2 mp_max
-scoreboard players operation @s mp_max = $Answer mp_max
+scoreboard players operation $PlayerMPMax mp = #150 Constant
+scoreboard players operation $PlayerMPMax mp -= $MaxMPCalc mp
 
-# スコアのリセット
-scoreboard players reset $MP_Levels level
-scoreboard players reset $Answer mp_max
-scoreboard players reset $Max_MP_Calc_1 mp_max
-scoreboard players reset $Max_MP_Calc_2 mp_max
+scoreboard players operation @s mp_max = $PlayerMPMax mp
+
+# スコアボードリセット
+scoreboard players reset $MaxMPCalc mp
+scoreboard players reset $PLayerMPMax mp

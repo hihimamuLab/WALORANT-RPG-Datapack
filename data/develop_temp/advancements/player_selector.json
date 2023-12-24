@@ -5,6 +5,6 @@
     }
   },
   "rewards": {
-    "function": "status:player_selector"
+    "function": "develop_temp:player_selector"
   }
 }

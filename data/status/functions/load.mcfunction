@@ -41,8 +41,10 @@ scoreboard players set #1000 Constant 1000
 scoreboard players set #10000 Constant 10000
 
 #タイマー
-scoreboard objectives add regen_speed_timer dummy "タイマー"
-scoreboard players set @s regen_speed_timer 0
+scoreboard objectives add mp_regen_speed_timer dummy "MP自然回復タイマー"
+scoreboard players set @s mp_regen_speed_timer 0
+scoreboard objectives add hp_regen_speed_timer dummy "HP自然回復タイマー"
+scoreboard players set @s hp_regen_speed_timer 0
 
 #Temporary
 scoreboard objectives add Temporary dummy

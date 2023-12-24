@@ -12,4 +12,8 @@ Editing now....
 
 '23/12/23:経験値バーのMPへの置き換え
 
-https://github.com/hihimamuLab/WALORANT-RPG-Datapack/assets/122292089/2bb14a64-6202-4738-a0a8-65d01e14ac3f
+'23/12/23:MPの自然回復実装
+
+'23/12/24:最大HP計算実装
+
+'23/12/24:HPの自然回復実装

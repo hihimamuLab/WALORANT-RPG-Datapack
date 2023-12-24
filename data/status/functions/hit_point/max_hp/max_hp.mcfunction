@@ -5,8 +5,8 @@ scoreboard players set @s hp_max 0
 
 # hp最大値計算 
 scoreboard players operation $Max_HP hp_max = @s level
-scoreboard players operation $200_times_level hp = @s level
-scoreboard players operation $200_times_level hp *= #200 Constant
+scoreboard players operation $200_times_level level = @s level
+scoreboard players operation $200_times_level level *= #200 Constant
 
 scoreboard players operation $Max_HP hp_max *= $Max_HP hp_max
 scoreboard players operation $Max_HP hp_max += #10000 Constant

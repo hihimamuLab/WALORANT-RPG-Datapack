@@ -4,9 +4,9 @@
 scoreboard players operation hp player_status = @s hp
 scoreboard players operation hp_max player_status = @s hp_max
 scoreboard players operation hp_regen player_status = @s hp_regen
-scoreboard players operation hp player_status = @s mp
-scoreboard players operation hp_max player_status = @s mp_max
-scoreboard players operation hp_regen player_status = @s mp_regen
+scoreboard players operation mp player_status = @s mp
+scoreboard players operation mp_max player_status = @s mp_max
+scoreboard players operation mp_regen player_status = @s mp_regen
 scoreboard players operation atk player_status = @s atk
 scoreboard players operation mgc_atk player_status = @s mgc_atk
 scoreboard players operation def player_status = @s def

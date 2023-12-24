@@ -6,7 +6,7 @@ scoreboard players set @s mp_max 0
 scoreboard players operation $MP_Levels level = @s level
 
 scoreboard players operation $Max_MP_Calc_1 mp_max = $MP_Levels level
-scoreboard players operation $Max_MP_Calc_1 mp_max *= $Max_MP_Calc_1 level
+scoreboard players operation $Max_MP_Calc_1 mp_max *= $Max_MP_Calc_1 mp_max
 scoreboard players operation $Max_MP_Calc_1 mp_max /= #100 Constant
 
 scoreboard players operation $Max_MP_Calc_2 mp_max = $MP_Levels level
@@ -14,8 +14,8 @@ scoreboard players operation $Max_MP_Calc_2 mp_max *= #25 Constant
 scoreboard players operation $Max_MP_Calc_2 mp_max /= #10 Constant
 
 scoreboard players operation $Answer mp_max = #50 Constant
-scoreboard players operation $Answer mp_max -= $Max_MP_Calc_1 level
-scoreboard players operation $Answer mp_max += $Max_MP_Calc_2 level
+scoreboard players operation $Answer mp_max -= $Max_MP_Calc_1 mp_max
+scoreboard players operation $Answer mp_max += $Max_MP_Calc_2 mp_max
 scoreboard players operation @s mp_max = $Answer mp_max
 
 # スコアのリセット

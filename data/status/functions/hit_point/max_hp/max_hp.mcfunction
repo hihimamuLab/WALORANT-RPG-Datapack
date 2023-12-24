@@ -11,7 +11,7 @@ scoreboard players operation $200_times_level level *= #200 Constant
 scoreboard players operation $Max_HP hp_max *= $Max_HP hp_max
 scoreboard players operation $Max_HP hp_max += #10000 Constant
 scoreboard players operation $Max_HP hp_max -= $200_times_level level
-scoreboard players operation $Max_HP hp_max /= #77 Constant
+scoreboard players operation $Max_HP hp_max /= #80 Constant
 
 scoreboard players operation @s hp_max = #150 Constant
 scoreboard players operation @s hp_max -= $Max_HP hp_max

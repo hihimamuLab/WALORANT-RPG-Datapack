@@ -3,19 +3,18 @@
 # hp最大値リセット
 scoreboard players set @s hp_max 0
 
-# hp最大値計算 
-scoreboard players operation $Max_HP hp_max = @s level
-scoreboard players operation $200_times_level level = @s level
-scoreboard players operation $200_times_level level *= #200 Constant
+# hp最大値計算 hp_max = 150 - {(x - 100) ^ 2 / 80}
+scoreboard players operation $MaxHPCalc hp = @s level
+scoreboard players operation $MaxHPCalc hp -= #100 Constant
 
-scoreboard players operation $Max_HP hp_max *= $Max_HP hp_max
-scoreboard players operation $Max_HP hp_max += #10000 Constant
-scoreboard players operation $Max_HP hp_max -= $200_times_level level
-scoreboard players operation $Max_HP hp_max /= #80 Constant
+scoreboard players operation $MaxHPCalc hp *= $MaxHPCalc hp
+scoreboard players operation $MaxHPCalc hp /= #80 Constant
 
-scoreboard players operation @s hp_max = #150 Constant
-scoreboard players operation @s hp_max -= $Max_HP hp_max
+scoreboard players operation $PlayerMaxHP hp = #150 Constant
+scoreboard players operation $PlayerMaxHP hp -= $MaxHPCalc hp
 
-# スコアリセット
-scoreboard players reset $Max_HP hp_max
-scoreboard players reset $200_times_level level
+scoreboard players operation @s hp_max = $PlayerMaxHP hp
+
+# スコアボードリセット
+scoreboard players reset $MaxHPCalc hp
+scoreboard players reset $PlayerMaxHP hp

@@ -1,7 +1,7 @@
 ### status:hit_point/regen_hp/regen_hp
 
 # タイマーのスコアリセット
-scoreboard players set @s regen_speed_timer 0
+scoreboard players set @s hp_regen_speed_timer 0
 
 # hpの自然回復
 #mp_regenの設定

@@ -1,7 +1,7 @@
 ### status:mana_point/mana_regen/mana_regen
 
 # タイマーのスコアリセット
-scoreboard players set @s regen_speed_timer 0
+scoreboard players set @s mp_regen_speed_timer 0
 
 # mpの自然回復量
 #level 0~20

@@ -14,3 +14,6 @@ scoreboard players operation spd player_status = @s spd
 scoreboard players operation crt player_status = @s crt
 scoreboard players operation level player_status = @s level
 scoreboard players operation xp player_status = @s xp
+
+# advancements剥奪
+advancement revoke @s only develop_temp:player_selector

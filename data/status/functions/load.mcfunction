@@ -33,8 +33,12 @@ scoreboard players set #10 Constant 10
 scoreboard players set #0 Constant 0
 scoreboard players set #25 Constant 25
 scoreboard players set #50 Constant 50
+scoreboard players set #77 Constant 77
 scoreboard players set #100 Constant 100
+scoreboard players set #150 Constant 150
+scoreboard players set #200 Constant 200
 scoreboard players set #1000 Constant 1000
+scoreboard players set #10000 Constant 10000
 
 #タイマー
 scoreboard objectives add regen_speed_timer dummy "タイマー"

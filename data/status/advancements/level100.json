@@ -4,5 +4,8 @@
       "trigger": "minecraft:impossible",
       "conditions": {}
     }
+  },
+  "rewards": {
+    "function": "status:xp/level100"
   }
 }

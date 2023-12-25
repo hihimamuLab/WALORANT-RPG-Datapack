@@ -2,3 +2,4 @@
 
 scoreboard players set @s xp 200000
 advancement grant @s only status:level100
+tellraw @s "レベル100になりました!おめでとうございます!たくさんこのRPGをプレイしてくださり、ありがとうございます!"

@@ -33,6 +33,7 @@ scoreboard players set #9 Constant 9
 scoreboard players set #10 Constant 10
 #ToDo 必要な値を適宜書き足していく
 scoreboard players set #0 Constant 0
+scoreboard players set #20 Constant 20
 scoreboard players set #25 Constant 25
 scoreboard players set #50 Constant 50
 scoreboard players set #80 Constant 80

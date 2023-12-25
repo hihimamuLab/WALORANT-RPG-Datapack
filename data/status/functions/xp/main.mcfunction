@@ -1,1 +1,0 @@
-function status:xp/main

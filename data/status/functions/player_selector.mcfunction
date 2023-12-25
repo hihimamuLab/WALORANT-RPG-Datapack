@@ -10,6 +10,9 @@ function status:mana_point/mana_regen/excass_deficient
 function status:hit_point/max_hp/max_hp
 function status:hit_point/regen_hp/regen_speed_timer
 function status:hit_point/regen_hp/excass_deficient
+#xp
+function status:xp/level_up
+function status:xp/need_xp_calc
 #timer
 function status:timer
 

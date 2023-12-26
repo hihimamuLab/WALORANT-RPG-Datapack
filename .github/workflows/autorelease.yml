@@ -1,9 +1,8 @@
 name: Create Archive
 on: 
-  pull_request:
-    branches:
-      - main
-    types: [closed]
+ push:
+  branches:
+  - main
       
 jobs:
   build:
@@ -16,7 +15,9 @@ jobs:
     - name: Set Time
       env:
         TZ: 'Asia/Tokyo'
-      run: echo "RELEASE_FILENAME=latest_WALORANT_RPG_Datapack.zip" >> $GITHUB_ENV
+      run: echo "CURRENT_DATETIME=$(date +'%Y%m%d-%H%M%S')" >> $GITHUB_ENV
+    
+    - run: echo "RELEASE_FILENAME=latest_WALORANT_RPG_Datapack.zip" >> $GITHUB_ENV
       
     - name: Archive Release
       uses: thedoctor0/zip-release@main

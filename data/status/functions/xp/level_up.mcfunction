@@ -9,5 +9,7 @@ scoreboard players set @s xp 0
 scoreboard players operation @s xp += $OverlapXP xp
 #atk
 function status:atk/levelup
+#def
+function status:def/levelup
 
 scoreboard players reset $OverlapXP xp

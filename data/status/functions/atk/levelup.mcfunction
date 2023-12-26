@@ -7,7 +7,7 @@ summon area_effect_cloud ~ ~ ~ {Tags:["Gen_rng"]}
 #AECのUUID取得
 execute store result score @s rng run data get entity @e[tag=Gen_rng, distance=..0.01, limit=1] UUID[0]
 
-#取得したUUID/100の剰余
+#取得したUUID%100
 scoreboard players operation @s rng %= #100 Constant
 
 #predicatesを使用してatk加算

@@ -1,0 +1,12 @@
+{
+  "condition": "minecraft:value_check",
+  "value": {
+    "type": "minecraft:score",
+    "target": "this",
+    "score": "rng"
+  },
+  "range": {
+    "min": 67,
+    "max": 99
+  }
+}

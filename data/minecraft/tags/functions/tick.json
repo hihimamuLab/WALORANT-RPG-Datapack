@@ -1,7 +1,5 @@
 {
     "values": [
-        "main:tick",
-        "attack:tick",
-        "status:tick"
+        "attack:tick"
     ]
 }

@@ -31,3 +31,6 @@ team add sniper "スナイパー"
 team add magician "魔法使い"
 team add sorcerer "妖術使い"
 team add wizard "魔術師"
+
+#乱数生成用スコアボード
+scoreboard objectives add rng dummy

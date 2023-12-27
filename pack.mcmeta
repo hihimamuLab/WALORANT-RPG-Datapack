@@ -1,6 +1,24 @@
 {
     "pack": {
-        "pack_format": 24,
-        "description": "Datapack for WALORANT RPG"
+        "pack_format": 27,
+        "description": [
+            {
+                "text": "WALORANT RPG Datapack!!",
+                "color": "#a82d00",
+                "bold": true,
+                "italic": true,
+                "underlined": true
+            },
+            "This is Datapack for WALORANT RPG",
+            {
+                "text": "WALORANT.JP Discord Server",
+                "color": "#ffffff",
+                "underlined": true,
+                "clickEvent": {
+                    "action": "open_url",
+                    "value": "https://discord.gg/9t33PjcMNX"
+                }
+            }
+        ]
     }
 }

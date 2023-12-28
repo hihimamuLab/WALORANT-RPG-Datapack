@@ -13,6 +13,8 @@ function status:hit_point/regen_hp/excass_deficient
 #xp
 function status:xp/level_up_detect
 function status:xp/need_xp_calc
+#actionbar
+function status:actionbar/display
 #timer
 function status:timer
 
